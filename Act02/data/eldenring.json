@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué elemento es clave para derrotar a un jefe en Elden Ring?",
+      "options": [
+        "Tener un buen equipo",
+        "Conocer los patrones de ataque",
+        "Usar hechizos constantemente",
+        "Correr en círculos"
+      ],
+      "correctAnswer": "Conocer los patrones de ataque"
+    },
+    {
+      "question": "¿Qué beneficio obtienes al activar una Sitio de Gracia?",
+      "options": [
+        "Recuperar salud y frascos de curación",
+        "Aumentar el daño de los ataques",
+        "Obtener objetos aleatorios",
+        "Desbloquear nuevas habilidades"
+      ],
+      "correctAnswer": "Recuperar salud y frascos de curación"
+    },
+    {
+      "question": "¿Cuál es la función principal de las Cenizas de Guerra en Elden Ring?",
+      "options": [
+        "Aplicar efectos especiales a las armas",
+        "Curar al jugador",
+        "Teletransportarse a Sitios de Gracia",
+        "Aumentar la experiencia obtenida"
+      ],
+      "correctAnswer": "Aplicar efectos especiales a las armas"
+    },
+    {
+      "question": "¿Cuál es el rol de Melina en Elden Ring?",
+      "options": [
+        "Guiar al jugador en su viaje",
+        "Ser una comerciante de objetos",
+        "Actuar como jefa opcional",
+        "Brindar ayuda en combates"
+      ],
+      "correctAnswer": "Guiar al jugador en su viaje"
+    },
+    {
+      "question": "¿Cómo puedes aumentar el uso de los Frascos de Lágrimas Carmesíes?",
+      "options": [
+        "Encontrando Lágrimas Doradas",
+        "Derrotando a jefes principales",
+        "Usando runas especiales",
+        "Comprándolos en tiendas"
+      ],
+      "correctAnswer": "Encontrando Lágrimas Doradas"
+    },
+    {
+      "question": "¿Qué tipo de daño es más efectivo contra dragones en Elden Ring?",
+      "options": [
+        "Eléctrico",
+        "Fuego",
+        "Mágico",
+        "Veneno"
+      ],
+      "correctAnswer": "Eléctrico"
+    },
+    {
+      "question": "¿Qué personaje en Elden Ring es conocido por ofrecer el inicio de la misión principal?",
+      "options": [
+        "Melina",
+        "Ranni",
+        "Torrent",
+        "Margit"
+      ],
+      "correctAnswer": "Melina"
+    },
+    {
+      "question": "¿Qué ocurre si acumulas demasiada carga de equipo?",
+      "options": [
+        "Te mueves más lentamente",
+        "Pierdes vida continuamente",
+        "No puedes usar hechizos",
+        "El daño de tus ataques disminuye"
+      ],
+      "correctAnswer": "Te mueves más lentamente"
+    },
+    {
+      "question": "¿Cuál de estos elementos NO es necesario para mejorar un arma en Elden Ring?",
+      "options": [
+        "Piedra de Forja",
+        "Runas",
+        "Cenizas de Guerra",
+        "Sombrapiedra de Forja"
+      ],
+      "correctAnswer": "Cenizas de Guerra"
+    },
+    {
+      "question": "¿Cuál es la mejor manera de evitar ataques en Elden Ring?",
+      "options": [
+        "Rodar en el momento justo",
+        "Bloquear con un escudo",
+        "Correr en círculos alrededor del enemigo",
+        "Usar magia para mantener la distancia"
+      ],
+      "correctAnswer": "Rodar en el momento justo"
+    }
+  ]
+}

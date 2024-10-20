@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilo-popup-preguntas.css">
+    <link rel="icon" href="../media/taza.png">
+    <script src="../scripts/script_fondo_animado.js"></script>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/scriptzelda.js"></script>
+    <title>CONCURSILLO</title>
+</head>
+
+<body class="body-preguntas">
+    <button id="open-popup" class="hidden2" onclick="showPopup()">Volver a abrir</button>
+    <p class="creaditos">Creado por: Victor Hidalgo</p>
+    <img src="../media/pepe-heart.gif" class="pepo3">
+    <div class="div-centrado-preguntas" id="popup">
+        <div class="browser-bar">
+            <div class="tab">
+                <img src="../media/taza.png" alt="icono" class="icono">
+                <p>CONCURSILLO</p>
+            </div>
+            <div class="right-side">
+                <span class="minimizar" onclick="">_</span> <!-- Minimizar -->
+                <span class="cerrar" onclick="">X</span> <!-- Cerrar -->
+            </div>
+        </div>
+
+        <img src="../media/destruir_barrotes.png" id="destruir-barrotes" onclick="handleClick()">
+        <h2>Dale click a la imagen varias veces para salvar a Roberto!</h2>
+        <a href="index.html"><button id="creditosBtn">Volver Inicio</button></a>
+        <a href="creditos.html"<button id="creditosBtn">Creditos</button></a>
+
+    </div>
+
+    <audio id="click-sound" src="../media/rompercelda.mp3"></audio>
+    <script>
+        let clickCount = 0;
+        const maxClicks = 6; 
+
+        function handleClick() {
+            const sound = document.getElementById('click-sound');
+            const image = document.getElementById('destruir-barrotes');
+            sound.play();
+            clickCount++;
+
+            if (clickCount >= maxClicks) {
+                image.src = '../media/roberto_libre.png'; // Replace with the new image path
+            }
+        }
+    </script>
+</body>
+
+</html>

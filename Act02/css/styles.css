@@ -1,0 +1,875 @@
+/* Estilo del cuerpo, eliminamos márgenes y centramos el contenido */
+body {
+    margin: 0;
+    /* Elimina márgenes del cuerpo para que el fondo cubra toda la pantalla */
+    height: 100vh;
+    /* Ocupa el 100% de la altura del viewport */
+    display: flex;
+    /* Usa flexbox para centrar el contenido */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    background-color: #e07b7b;
+    /* Color de fondo */
+    font-family: Arial, sans-serif;
+    /* Fuente predeterminada */
+}
+
+.background-hacker {
+    background-image: url('../media/fondo_hackeado.gif');
+    background-color: white;
+    /* Fondo blanco del contenedor */
+    height: 90%;
+    max-height: 800px;
+    /* Altura del contenedor */
+    width: 80%;
+    max-width: 1200px;
+    /* Anchura del contenedor */
+    margin: auto;
+    /* Centra el contenedor automáticamente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Sombra para darle relieve */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    border: 3px solid red;
+    /* Borde rojo */
+    display: flex;
+    /* Activar flexbox dentro del contenedor */
+    flex-direction: column;
+    /* Coloca los elementos en columna */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    position: relative;
+    /* Permite el posicionamiento relativo de elementos hijos */
+    overflow: hidden;
+    /* Oculta cualquier desbordamiento de contenido */
+    padding-top: 40px;
+    /* Espacio superior para la barra simulada */
+}
+
+.background-carcel {
+    background-image: url('../media/carcelfondo.jpg');
+    background-color: white;
+    /* Fondo blanco del contenedor */
+    height: 90%;
+    max-height: 800px;
+    /* Altura del contenedor */
+    width: 80%;
+    max-width: 1200px;
+    /* Anchura del contenedor */
+    margin: auto;
+    /* Centra el contenedor automáticamente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Sombra para darle relieve */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    border: 3px solid red;
+    /* Borde rojo */
+    display: flex;
+    /* Activar flexbox dentro del contenedor */
+    flex-direction: column;
+    /* Coloca los elementos en columna */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    position: relative;
+    /* Permite el posicionamiento relativo de elementos hijos */
+    overflow: hidden;
+    /* Oculta cualquier desbordamiento de contenido */
+    padding-top: 40px;
+    /* Espacio superior para la barra simulada */
+}
+
+/* Estilo para el div principal centrado */
+.div-centrado {
+    background-color: white;
+    /* Fondo blanco del contenedor */
+    height: 90%;
+    max-height: 800px;
+    /* Altura del contenedor */
+    width: 80%;
+    max-width: 1200px;
+    /* Anchura del contenedor */
+    margin: auto;
+    /* Centra el contenedor automáticamente */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Sombra para darle relieve */
+    border-radius: 20px;
+    /* Bordes redondeados */
+    border: 3px solid red;
+    /* Borde rojo */
+    display: flex;
+    /* Activar flexbox dentro del contenedor */
+    flex-direction: column;
+    /* Coloca los elementos en columna */
+    justify-content: center;
+    /* Centra los elementos verticalmente */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    position: relative;
+    /* Permite el posicionamiento relativo de elementos hijos */
+    overflow: hidden;
+    /* Oculta cualquier desbordamiento de contenido */
+    padding-top: 40px;
+    /* Espacio superior para la barra simulada */
+}
+
+
+
+/* Estilo de la barra simulada tipo navegador */
+.browser-bar {
+    width: 100%;
+    /* Barra ocupa el ancho completo del contenedor */
+    height: 40px;
+    /* Altura de la barra */
+    background-color: #333;
+    /* Fondo oscuro para la barra */
+    display: flex;
+    /* Flexbox para alinear los elementos dentro de la barra */
+    justify-content: space-between;
+    /* Espaciado entre los elementos de la izquierda y derecha */
+    align-items: center;
+    /* Centra verticalmente el contenido */
+    padding: 0 10px;
+    /* Espaciado interno horizontal */
+    position: absolute;
+    /* Fija la barra en la parte superior del contenedor */
+    top: 0;
+    /* Posición en la parte superior */
+    left: 0;
+    /* Alineado al borde izquierdo */
+    border-top-left-radius: 0px;
+    /* Esquinas superiores redondeadas */
+    border-top-right-radius: 20px;
+    /* Esquinas superiores redondeadas */
+    color: white;
+    /* Color del texto en la barra */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    /* Sombra para efecto de profundidad */
+}
+
+/* Estilo para el contenido de la pestaña dentro de la barra simulada */
+.tab {
+    display: flex;
+    /* Flexbox para alinear el ícono y el texto de la pestaña */
+    align-items: center;
+    /* Centra verticalmente el ícono y el texto */
+}
+
+/* Tamaño y estilo del ícono dentro de la pestaña */
+.icono {
+    width: 20px;
+    /* Ancho del ícono */
+    height: 20px;
+    /* Altura del ícono */
+    margin-right: 10px;
+    /* Espacio a la derecha del ícono */
+}
+
+/* Estilo del texto de la pestaña */
+.tab p {
+    margin: 0;
+    /* Elimina el margen por defecto */
+    font-size: 14px;
+    /* Tamaño de la fuente */
+    font-weight: bold;
+    /* Texto en negrita */
+}
+
+/* Estilo para los botones de la derecha de la barra (minimizar, maximizar, cerrar) */
+.right-side {
+    display: flex;
+    /* Flexbox para alinear los botones */
+    align-items: center;
+    /* Centra verticalmente los botones */
+    margin-right: 25px;
+}
+
+/* Estilo común para cada uno de los botones de la derecha */
+.right-side span {
+    margin-left: 20px;
+    /* Espaciado entre cada botón */
+    cursor: pointer;
+    /* Cambia el cursor a pointer (manito) cuando el ratón pasa por encima */
+    font-size: 14px;
+    /* Tamaño del texto de los botones */
+    color: #fff;
+    /* Color de los botones */
+}
+
+/* Estilo del video dentro del div centrado */
+.div-centrado video {
+    width: 40%;
+    /* El video ocupa el 60% del ancho del contenedor */
+    display: flex;
+    height: auto;
+    max-width: 600px;
+    /* El video ocupa el 60% de la altura del contenedor */
+    object-fit: cover;
+    /* Escala el video manteniendo sus proporciones */
+    margin: 20px 0;
+    /* Espacio vertical alrededor del video */
+}
+
+/* Estilo para el botón "Jugar" */
+.jugar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    /* Fondo rojo para el botón */
+    color: rgb(255, 255, 255);
+    /* Color del texto */
+    border: none;
+    /* Sin borde */
+    border-radius: 5px;
+    /* Esquinas redondeadas */
+    padding: 5px 100px;
+    /* Espaciado interno del botón */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    border: 2px solid red;
+    cursor: pointer;
+    /* Cambia el cursor a pointer al pasar por encima */
+    transition: background-color 0.3s ease;
+    /* Transición suave al cambiar el color de fondo */
+}
+
+.jugar:hover {
+    background-color: #ff0000;
+    /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Animación para el botón "Jugar" al hacer clic */
+@keyframes clickAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.jugar:active {
+    animation: clickAnimation 0.2s ease;
+}
+
+.color {
+    color: rgb(255, 0, 0);
+}
+
+/* Estilo hover para el botón "Jugar" */
+
+/* Estilo para la primera imagen (pepo1) */
+.pepo1,
+.pepo2 {
+    position: absolute;
+    /* Posición absoluta para colocar libremente las imágenes */
+    bottom: 0px;
+    /* Las coloca a una distancia fija del fondo */
+}
+
+/* Ajustes para la imagen pepo1 */
+.pepo1 {
+    display: flex;
+    left: 0;
+    /* Alineada al borde izquierdo */
+    width: 15%;
+    max-width: 200px;
+    /* Ancho de la imagen */
+}
+
+/* Ajustes para la imagen pepo2 */
+.pepo2 {
+    display: flex;
+    max-width: 10%;
+    right: 0;
+    /* Alineada al borde derecho */
+    width: 200px;
+    /* Ancho de la imagen */
+}
+
+#open-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    /* Fondo rojo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: none;
+    /* Oculto por defecto */
+}
+
+/* Mostrar el botón cuando esté activo */
+#open-popup.visible {
+    display: block;
+}
+
+/* Ocultar el pop-up */
+.hidden2 {
+    display: none;
+}
+
+.creaditos {
+    position: fixed;
+    /* Posiciona los créditos de manera fija en la pantalla */
+    bottom: 500px;
+    /* Coloca los créditos en la parte inferior */
+    width: 100%;
+    /* Abarca todo el ancho de la pantalla */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    font-size: 24px;
+    /* Aumenta el tamaño del texto */
+    font-weight: bold;
+    /* Hace que el texto sea más grueso */
+    color: #ff0000;
+    /* Color rojo para destacar */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra para dar un efecto más impactante */
+    font-family: 'Arial', sans-serif;
+    /* Fuente clara y legible */
+}
+
+.pepo3 {
+    position: fixed;
+    /* Posiciona el elemento de manera fija en la pantalla */
+    bottom: 400px;
+    /* Coloca el elemento justo debajo de .creaditos */
+    width: 100px;
+    /* Ancho de la imagen */
+    left: 50%;
+    /* Centra horizontalmente */
+    transform: translateX(-50%);
+    /* Ajusta la posición horizontal para centrar */
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regresar {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.regresar:hover {
+    background-color: #45a049;
+}
+
+.username-input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.iniciar {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iniciar:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .jugar {
+        padding: 15px;
+        /* Ajustar el padding para pantallas más pequeñas */
+        font-size: 14px;
+        /* Reducir el tamaño de la fuente */
+        max-width: 90%;
+        /* Hacer que el botón ocupe un 90% del contenedor */
+    }
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    color: rgb(139, 0, 0);
+    text-shadow: 10px black;
+    background-color: rgb(93, 125, 207);
+    font-family: Verdana;
+    opacity: 1;
+    font-size: 25px;
+    border-right: .15em solid rgb(255, 255, 255);
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: rgb(255, 253, 253);
+    }
+}
+
+/*Pop-up's de gato*/
+
+#cat-popup-container {
+    position: relative;
+}
+
+.cat-popup {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border: 3px solid black;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none;
+}
+
+.cat-popup img {
+    width: 100%;
+    height: auto;
+}
+
+.close-cat-popup {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.imagen-roberto {
+    width: 60%;
+    height: 60%;
+    animation: mover-roberto 12s forwards;
+    /* Añadido forwards para mantener el estado final */
+    margin-left: 750px;
+    display: flex;
+    /* Asegura que la imagen esté visible inicialmente */
+}
+
+@keyframes mover-roberto {
+    0% {
+        transform: translateX(-1300px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    99% {
+        transform: translateX(1000px);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        /* Oculta la imagen al final de la animación */
+    }
+}
+
+.imagen-javi {
+    width: 100%;
+    height: 100%;
+    margin-top: -310px;
+    animation: mover-javi 13s forwards;
+    /* Añadido forwards para mantener el estado final */
+}
+
+@keyframes mover-javi {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+
+    99% {
+        transform: translateX(3000px);
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+        /* Oculta la imagen al final de la animación */
+    }
+}
+
+.carcel {
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -490px;
+    animation: aparecer-carcel 12s forwards;
+    flex-direction: column;
+    /* Añadido forwards para mantener el estado final */
+}
+
+.carcel img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: -275px;
+}
+
+@keyframes aparecer-carcel {
+    0% {
+        opacity: 0;
+    }
+
+    99% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.texto-carcel {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    margin-top: 23%;
+    color: rgb(29, 26, 26);
+    text-align: center;
+    display: flex;
+}
+
+.boton-carcel {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    margin-top: 28%;
+    ;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: rgb(230, 55, 55);
+    text-align: center;
+    display: flex;
+}
+
+.boton-carcel:hover {
+    color: rgb(255, 0, 0);
+}
+
+/*PAGINA DE HISTORIA ROBERTO LLENDO A CARCEL*/
+.banco {
+    align-items: flex-start;
+    width: 50%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+}
+
+.roberto {
+    display: flex;
+    width: 30%;
+    margin-right: 575px;
+    margin-top: -320px;
+    position: relative;
+    animation: correrDerecha 10s ease-in-out forwards;
+}
+
+/* Definición de la animación */
+@keyframes correrDerecha {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(1000px);
+    }
+}
+
+.boton-atraco {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* PREGUNTAS */
+.body-preguntas {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e07b7b;
+    font-family: Arial, sans-serif;
+}
+
+.div-centrado-preguntas {
+    background-color: white;
+    height: 90%;
+    max-height: 800px;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 40px;
+}
+
+.preguntas-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.pregunta {
+    background-color: #b15b5b;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 48%;
+}
+
+.pregunta div {
+    margin-top: 10px;
+}
+
+.pregunta label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#preguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid red;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #cc0000;
+}
+
+.contador {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.hidden4 {
+    display: none;
+
+}
+
+#warning-image{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: -200px;
+    margin: 0;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .div-centrado-preguntas {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .preguntas-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pregunta {
+        width: 90%;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .contador {
+        top: 20px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .div-centrado-preguntas {
+        width: 95%;
+        padding-top: 10px;
+    }
+
+    .preguntas-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pregunta {
+        width: 100%;
+    }
+
+    .button {
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+
+    .contador {
+        top: 10px;
+        right: 5px;
+        font-size: 14px;
+    }
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Ajusta el tamaño según sea necesario */
+    max-width: 600px; /* Ajusta el tamaño según sea necesario */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    transition: opacity 1s ease-in-out;
+}
+
+.hidden5 {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#buttons button {
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#buttons button:hover {
+    background-color: #ccc;
+}
+#creditosBtn {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Relleno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Mostrar en línea */
+    font-size: 16px; /* Tamaño de la fuente */
+    margin: 4px 2px; /* Márgenes */
+    cursor: pointer; /* Cursor de puntero */
+    border-radius: 12px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+#creditosBtn:hover {
+    background-color: #45a049; /* Color de fondo al pasar el ratón */
+}

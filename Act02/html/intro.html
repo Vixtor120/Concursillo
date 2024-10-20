@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cursor.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../media/taza.png">
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/script_fondo_animado.js"></script>
+
+    <title>CONCURSILLO</title>
+</head>
+<body>
+    <!-- Botón que aparecerá después de cerrar o minimizar el pop-up -->
+    <button id="open-popup" class="hidden2" onclick="showPopup()">Volver a abrir</button>
+    <p class="creaditos">Creado por: Victor Hidalgo</p>
+    <img src="../media/pepe-heart.gif" class="pepo3">
+
+    <div class="background-hacker" id="popup">
+        <div class="browser-bar">
+            <div class="tab">
+                <img src="../media/taza.png" alt="icono" class="icono">
+                <p>HACKEADO!☠️</p>
+            </div>
+            <div class="right-side">
+                <span class="minimizar" onclick="minimizePopup()">_</span> <!-- Minimizar -->
+                <span class="cerrar" onclick="closePopup()">X</span> <!-- Cerrar -->
+            </div>
+        </div>
+        <div class="typewriter">
+            <h1 id="hack-text"></h1>
+        </div>
+    </div>
+
+    <div id="cat-popup-container">
+        <div class="cat-popup hidden" id="cat-popup-1" style="top: 35%; left: 27%;">
+            <img src="../media/gato-meme1.gif" alt="Meme de gato 1">
+            <button class="close-cat-popup" onclick="closeCatPopup(1)">X</button>
+        </div>
+        <div class="cat-popup hidden" id="cat-popup-2" style="top: 62%; right: 40%;">
+            <img src="../media/gato-meme2.gif" alt="Meme de gato 2">
+            <button class="close-cat-popup" onclick="closeCatPopup(2)">X</button>
+        </div>
+        <div class="cat-popup hidden" id="cat-popup-3" style="top: 25%; left: 70%;">
+            <img src="../media/gato-meme3.gif" alt="Meme de gato 3">
+            <button class="close-cat-popup" onclick="closeCatPopup(3)">X</button>
+        </div>
+        <div class="cat-popup hidden" id="cat-popup-4" style="top: 70%; left: 55%;">
+            <img src="../media/gato-meme4.gif" alt="Meme de gato 4">
+            <button class="close-cat-popup" onclick="closeCatPopup(4)">X</button>
+        </div>
+        <div class="cat-popup hidden" id="cat-popup-5" style="top: 22%; left: 24%;">
+            <img src="../media/gato-meme5.gif" alt="Meme de gato 5">
+            <button class="close-cat-popup" onclick="closeCatPopup(5)">X</button>
+        </div>
+        <div class="cat-popup hidden" id="cat-popup-6" style="top: 15%; left: 77%;">
+            <img src="../media/gato-meme6.gif" alt="Meme de gato 6">
+            <button class="close-cat-popup" onclick="closeCatPopup(6)">X</button>
+        </div>
+    </div>
+
+    <audio autoplay loop>
+        <source src="../media/gato.mp3" type="audio/mpeg">
+    </audio>
+
+
+</body>
+
+</html>

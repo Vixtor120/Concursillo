@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál es el nombre completo del héroe principal en la serie The Legend of Zelda?",
+      "options": [
+        "Link",
+        "Zelda",
+        "Ganon",
+        "Epona"
+      ],
+      "correctAnswer": "Link"
+    },
+    {
+      "question": "¿Qué objeto usa Link para viajar en el tiempo en Ocarina of Time?",
+      "options": [
+        "Ocarina del Tiempo",
+        "Espada Maestra",
+        "Bumerán",
+        "Garra"
+      ],
+      "correctAnswer": "Ocarina del Tiempo"
+    },
+    {
+      "question": "¿Cómo se llama el reino principal donde se desarrolla la mayoría de los juegos de Zelda?",
+      "options": [
+        "Hyrule",
+        "Termina",
+        "Koholint",
+        "Lorule"
+      ],
+      "correctAnswer": "Hyrule"
+    },
+    {
+      "question": "¿Quién es el principal antagonista en la mayoría de los juegos de la serie?",
+      "options": [
+        "Ganondorf",
+        "Vaati",
+        "Zant",
+        "Dark Link"
+      ],
+      "correctAnswer": "Ganondorf"
+    },
+    {
+      "question": "¿Cuál es el nombre de la princesa que Link intenta salvar en casi todos los juegos?",
+      "options": [
+        "Zelda",
+        "Navi",
+        "Ruto",
+        "Malon"
+      ],
+      "correctAnswer": "Zelda"
+    },
+    {
+      "question": "¿Qué artículo icónico de la serie se usa para reflejar o bloquear ataques?",
+      "options": [
+        "Escudo Hyliano",
+        "Capa de Roc",
+        "Bota de hierro",
+        "Varita de fuego"
+      ],
+      "correctAnswer": "Escudo Hyliano"
+    },
+    {
+      "question": "¿En qué juego de la serie aparece el personaje Midna?",
+      "options": [
+        "Twilight Princess",
+        "Majora's Mask",
+        "Wind Waker",
+        "Skyward Sword"
+      ],
+      "correctAnswer": "Twilight Princess"
+    },
+    {
+      "question": "¿Cuál es el nombre del barco que Link usa en The Wind Waker?",
+      "options": [
+        "Rey de los Leones Rojos",
+        "Espada Maestra",
+        "Barco del Amanecer",
+        "El Galeón Fantasma"
+      ],
+      "correctAnswer": "Rey de los Leones Rojos"
+    },
+    {
+      "question": "¿Qué criatura acompaña a Link en su aventura en Majora's Mask?",
+      "options": [
+        "Tatl",
+        "Navi",
+        "Midna",
+        "Ezlo"
+      ],
+      "correctAnswer": "Tatl"
+    },
+    {
+      "question": "¿Qué instrumento usa Link en The Legend of Zelda: The Wind Waker para controlar el viento?",
+      "options": [
+        "Bastón de los Vientos",
+        "Ocarina del Tiempo",
+        "Arpa de los Sabios",
+        "Flauta Mágica"
+      ],
+      "correctAnswer": "Bastón de los Vientos"
+    }
+  ]
+}

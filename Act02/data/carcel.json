@@ -1,0 +1,105 @@
+{
+    "questions": [
+      {
+        "question": "¿Cuál es el mejor momento para planificar una fuga?",
+        "options": [
+          "Durante el recuento de prisioneros",
+          "Durante la noche, cuando hay menos guardias",
+          "Durante una visita familiar",
+          "A plena luz del día"
+        ],
+        "correctAnswer": "Durante la noche, cuando hay menos guardias"
+      },
+      {
+        "question": "¿Qué elemento sería más útil para cortar los barrotes de una celda?",
+        "options": [
+          "Un destornillador",
+          "Un cuchillo",
+          "Una sierra pequeña oculta",
+          "Una cuerda"
+        ],
+        "correctAnswer": "Una sierra pequeña oculta"
+      },
+      {
+        "question": "¿Qué método podrías usar para evitar que las cámaras de seguridad te detecten?",
+        "options": [
+          "Cubrirlas con una manta",
+          "Cortar los cables de las cámaras",
+          "Desviarlas con un espejo",
+          "Esconderte en las sombras"
+        ],
+        "correctAnswer": "Cubrirlas con una manta"
+      },
+      {
+        "question": "¿Cuál es el lugar menos probable donde los guardias te buscarían durante una fuga?",
+        "options": [
+          "En los conductos de ventilación",
+          "Escondido entre el personal de cocina",
+          "En el tejado",
+          "Escondido en una caja de suministros"
+        ],
+        "correctAnswer": "Escondido en una caja de suministros"
+      },
+      {
+        "question": "¿Cuál es el mejor disfraz para salir de la prisión sin levantar sospechas?",
+        "options": [
+          "Un uniforme de guardia",
+          "Ropa civil robada de la lavandería",
+          "Un traje de médico",
+          "Un disfraz de jardinero"
+        ],
+        "correctAnswer": "Un uniforme de guardia"
+      },
+      {
+        "question": "¿Qué herramienta sería esencial para pasar por una puerta cerrada con llave?",
+        "options": [
+          "Una ganzúa",
+          "Un martillo",
+          "Un destornillador",
+          "Una tarjeta de acceso robada"
+        ],
+        "correctAnswer": "Una tarjeta de acceso robada"
+      },
+      {
+        "question": "Si necesitas cruzar el patio de la cárcel sin ser visto, ¿qué estrategia sería la más eficaz?",
+        "options": [
+          "Correr lo más rápido posible",
+          "Caminar despacio para no levantar sospechas",
+          "Esconderte detrás de los arbustos",
+          "Vestirte como un guardia y actuar con normalidad"
+        ],
+        "correctAnswer": "Vestirte como un guardia y actuar con normalidad"
+      },
+      {
+        "question": "¿Cómo podrías conseguir un mapa de la prisión para planear tu fuga?",
+        "options": [
+          "Robándolo de la oficina del alcaide",
+          "Memorizando las rutas durante tus paseos",
+          "Sobornando a un guardia",
+          "Usando las visitas familiares para que te traigan un mapa"
+        ],
+        "correctAnswer": "Memorizando las rutas durante tus paseos"
+      },
+      {
+        "question": "Si logras salir de la cárcel, ¿cuál sería tu primer paso para evitar ser capturado nuevamente?",
+        "options": [
+          "Cambiarte de ropa inmediatamente",
+          "Dirigirte a una zona rural",
+          "Robar un vehículo y escapar",
+          "Tomar el transporte público"
+        ],
+        "correctAnswer": "Cambiarte de ropa inmediatamente"
+      },
+      {
+        "question": "¿Cómo puedes minimizar el riesgo de que te delaten otros prisioneros durante la fuga?",
+        "options": [
+          "Hacer la fuga en solitario sin contarle a nadie",
+          "Sobornar a los prisioneros cercanos",
+          "Involucrar a los prisioneros en tu plan",
+          "Esconderte en áreas comunes para pasar desapercibido"
+        ],
+        "correctAnswer": "Hacer la fuga en solitario sin contarle a nadie"
+      }
+    ]
+  }
+  
